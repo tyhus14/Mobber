@@ -1,164 +1,201 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  vertical-align: top;
+	margin: 0;
+	padding: 0;
+	font-family:'Didact Gothic', sans-serif;
+}
+
+body * {
+	vertical-align: top;
 }
 
 .header {
-	
-  background-image: url("images/headerimage.png");
-  background-repeat: repeat-x;
-  height: 60px;
+	background-image: url("images/headerimage.png");
+	background-repeat: repeat-x;
+	height: 60px;
 }
 
 .container {
 	position: relative;
-  width: 960px;
-  height:60px;
-  margin: 0 auto;
+	width: 960px;
+	margin: 0 auto;
 }
 
-.header h1 {
-  color: #fff;
-  font-size: 16px;
-  margin: 0;
-  line-height: 50px;
- display: inline-block;
- padding-left: 30px;
- position: relative; top: -25px; left: 60px;
- font-weight: lighter;
+.logo {
+	display: inline-block;
 }
 
-.account-menu {
+.navbar {
+	list-style: none;
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	margin-top: -2px;
+	text-transform: uppercase;
+	margin-left: -20px
+}
+
+.navbar li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 30px
+}
+
+.menu {
+	width: 161px;
 	position: absolute;
 	right: 0;
 	display: inline-block;
-}
-
-.banner {
-	height: 60px;
-	background-color: #fff;
-
-}
-.banner h2 {
-	font-size: 25px;
-	text-align: left;
-	font-weight: lighter;
-}
-
-.box {
-	background: rgb(239, 236, 231);
-	height: 575px;
-	box-shadow: 0px .5px 1px black;
-}
-
-.image {
-	position: relative; top: 25px; left: 0px;
-}
-
-.numbers {
-	height: 142px;
-	width: 152px;
-	background: rgb(197, 194, 186);
-	position: absolute; top: 25px; right: 0px;
-	right: 0;
-	display: inline-block;
-	text-shadow: rgb(137, 137, 137) 0 2px;
-}
-
-.numberscopy {
-	height: 142px;
-	width: 152px;
-	background: rgb(197, 194, 186);
-	position: relative; top: -376px; right: -639px;
-	display: inline-block;
-	text-shadow: rgb(137, 137, 137) 0 2px;
-}
-
-.box h3{
-	font-size: 75px;
-	position: relative; top: -45px; left: 32px;
-	font-weight: lighter;
+	text-transform: none;
+	margin-top: 3px;
 	color: #fff;
 }
 
-.box h4{
-	font-size: 75px;
-	position: relative; top: -69px; left: 15px;
+.springsteen {
+	margin: 1px 6px;
+	border-radius: 40px;
+	width: 31%;
+	height: 31%; 
+}
+
+.johndoe {
+	padding: 16px 0px;
+	display: inline-block;
+}
+
+.arrow {
+	display: inline-block;
+	margin: 5px 5px;
+}
+
+.whitebox h1 {
+	font-size: 31px;
+	margin: 0px;
+	padding-top: 22px;
 	font-weight: lighter;
-	color: #fff;
+	height: 67px;
+}
+
+.tanbg {
+	height: 640px;
+	background: rgb(242, 240, 236);
+}
+
+.utwopic {
+	position: absolute; top: 30px; left: 0px;
 }
 
 .opacityblack {
-	height: 55px;
+	height: 58px;
 	width: 622px;
 	background: black;
-	position: relative; top: -35px; right: 0px;
+	position: absolute; top: 30px; right: 338px;
 	display: inline-block;
-	opacity: .75;
+	opacity: .5;
 }
 
-.other h5 {
+.ghost {
+	height: 58px;
+	width: 622px;
+	position: absolute; top: 30px; right: 338px;
+	display: inline-block;
+	opacity: 1;
+}
+
+.ghost span.worldtour {
+	padding: 20px;
+	position: relative;	top: 15px;
+	font-size: 24px;
 	color: #fff;
-	font-size: 25px;
-	position: relative; top: -123px; left: 17px;
-	font-weight: lighter;
 }
 
-.clock {
-	position: relative; top: -190px; left: 415px;
-	
-}
-
-.mobends {
-	color: #fff;
-	font-weight: lighter;
+.ghost span.clock {
+	position: absolute; 
+	top: 22px;
+	right: 20px;
 	font-size: 14px;
-	position: relative; top: -220px; left: 445px;
+	color: #fff;
+}
+
+.yellowclock {
+	position: absolute;
+	top: 22px;
+	right: 170px;
 }
 
 .graybox {
-	height: 30px;
-	width: 152px;
-	background: rgb(166, 159, 145);
-	position: absolute; top: 5px; right: 0px;
+	height: 120px;
+	width: 140px;
+	background: rgb(208, 205, 198);
+	position: absolute; top: 30px; right: 0px;
 	right: 0;
 	display: inline-block;
 }
 
 .secondgraybox {
-	height: 30px;
-	width: 152px;
-	background: rgb(166, 159, 145);
-	position: absolute; top: 5px; right: 169px;
+	height: 120px;
+	width: 140px;
+	background: rgb(208, 205, 198);
+	position: relative; top: 30px; right: -652px;
 	display: inline-block;
 }
 
-.graybox h6 {
-	font-weight: lighter;
-	font-size: 12px;
-	position: absolute; top: -18px; right: 17px;
-	color: rgb(50, 50, 50);
+.darkgraybox {
+	height: 35px;
+	width: 140px;
+	background: rgb(166, 159, 145);
+	position: absolute; top: 150px; right: 0px;
+	right: 0;
+	display: inline-block;
 }
 
-.secondgraybox h6 {
-	font-weight: lighter;
-	font-size: 12px;
-	position: absolute; top: -18px; right: 48px;
-	color: rgb(50, 50, 50);
+.seconddarkgray {
+	height: 35px;
+	width: 140px;
+	background: rgb(166, 159, 145);
+	position: absolute; top: 150px; right: 168px;
+	display: inline-block;
+}
+
+.graybox span {
+	font-size: 76px;
+	color: #fff;
+	text-transform: uppercase;
+	position: relative; top: 13px; right: -5px;
+	text-shadow: rgb(181, 181, 181) 0px 2px;
+}
+
+.secondgraybox span {
+	font-size: 76px;
+	color: #fff;
+	text-transform: uppercase;
+	position: relative; top: 13px; right: -25px;
+	text-shadow: rgb(181, 181, 181) 0px 2px;
+}
+
+.darkgraybox span {
+	font-size: 16px;
+	color: rgb(65, 65, 65);
+	text-transform: uppercase;
+	position: relative; top: 7px; right: -8px;
+}
+
+.seconddarkgray span {
+	font-size: 16px;
+	color: rgb(65, 65, 65);
+	text-transform: uppercase;
+	position: relative; top: 7px; right: -34px;
 }
 
 .yellowbox {
 	border-style: solid;
 	border-width: thin;
 	border-color: rgb(189, 128, 0);
-	border-radius: 10px;
+	border-radius: 6px;
 	height: 60px;
-	width: 321px;
-	position: absolute; top: 60px;
+	width: 305px;
+	position: absolute; top: 217px;
 	right: 0;
-	box-shadow: 0px 1px 3px black;
+	box-shadow: 0px 3px 1px rgb(226, 226, 226);
 
 	background: #ffda00; /* Old browsers */
 background: -moz-linear-gradient(top,  #ffda00 0%, #e29900 100%); /* FF3.6+ */
@@ -171,59 +208,52 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffda00', end
 
 }
 
-.yellowbox h1 {
+.yellowbox span {
 	font-weight: lighter;
 	font-size: 22px;
-	position: absolute; top: 5px; right: 0px;
+	position: absolute; top: 13px; right: 94px;
 	color: #fff;
-	text-shadow: rgb(137, 137, 137) 0 2px;
+	text-shadow: rgb(200, 149, 0) 0 2px;
+}
+
+.awardbox {
+	z-index: 10;
+	position: relative;
+	right: -658px;
+	top: 145px;
+	height: 83px;
+	width: 297px;
+	background: #fff;
+	border-radius: 6px;
 }
 
 .underbox {
 	height: 90px;
 	width: 622px;
-	position: absolute; top: 264px; left: 0px;
-	background: rgb(184, 181, 171);
+	position: absolute; top: 432px; left: 0px;
+	background: rgb(208, 205, 197);
 
 }
 
-.underbox h1 {
-	font-size: 16px;
-	color: black;
-	position: absolute; top: 0px; right: 0px;
+.underbox span {
+	font-size: 20px;
+	color: rgb(70, 70, 70);
+	position: absolute; top: 19px; left: 22px;
 }
 
-.yellowsmall {
-	height: 30px;
-	width: 120px;
-	position: absolute; top: 245px; left: -5px;
-	background: rgb(235, 191, 0);
+.join p {
+	color: rgb(125, 125, 125);
+	font-size: 13px;
+	position: absolute; top: 519px; left: 22px;
 }
 
-.yellowsmall h1 {
-	font-weight: lighter;
-	font-size: 12px;
-	position: absolute; top: -11px; left: -10px;
-	color: #fff;
-	text-shadow: rgb(137, 137, 137) 0 2px;
-
+.join img {
+	position: absolute; top: -29px; left: -24px;
 }
 
-.texts {
-	font-weight: lighter;
-	font-size: 12px;
-	position: absolute; top: 350px; left: 30px;
-	color: rgb(137, 137, 137);
-}
-
-.award {
-	height: 74px; width: 301px;
-	position: absolute; top: 124px; right: 10px;
+.middlewhite {
+	height: 622px;
 	background: #fff;
-
-}
-
-.pictures {
-	position: relative; top: 320px; left: 0px;
-	padding-left: 0px;
+	position: relative;
+	display: inline-block;
 }
