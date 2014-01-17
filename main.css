@@ -48,6 +48,7 @@ body * {
 	text-transform: none;
 	margin-top: 3px;
 	color: #fff;
+	margin-right: -12px;
 }
 
 .springsteen {
@@ -76,126 +77,267 @@ body * {
 }
 
 .tanbg {
-	height: 640px;
+	height: 580px;
 	background: rgb(242, 240, 236);
+	box-shadow: inset 0px -1px 12px rgb(219, 219, 218);
 }
 
-.utwopic {
-	position: absolute; top: 30px; left: 0px;
-}
-
-.opacityblack {
-	height: 58px;
-	width: 622px;
-	background: black;
-	position: absolute; top: 30px; right: 338px;
+.middlecontainer {
 	display: inline-block;
-	opacity: .5;
+	height: 580px;
+	width: 620px;
 }
 
-.ghost {
-	height: 58px;
-	width: 622px;
-	position: absolute; top: 30px; right: 338px;
+.utwocontainer {
+	height: 580px;
+	width: 620px;
 	display: inline-block;
-	opacity: 1;
+	margin-left: -3px;
 }
 
-.ghost span.worldtour {
+.utwo {
+	background: url("images/utwo.png");
+	width: 620px;
+	height: 402px;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.underbox {
+	height: 85px;
+	display: inline-block;
+	background: rgb(208, 205, 197);
+
+}
+
+.opacity {
+	position: relative;
+	display: inline-block;
+	height: 58px;
+	width: 100%;
+	background: rgba(17, 17, 17, 0.5);
+}
+
+.opacity span.worldtour {
 	padding: 20px;
-	position: relative;	top: 15px;
 	font-size: 24px;
 	color: #fff;
+	line-height: 59px;
 }
 
-.ghost span.clock {
-	position: absolute; 
-	top: 22px;
-	right: 20px;
+.opacity span.clock {
+	position: absolute;
+	right: 0; 
 	font-size: 14px;
 	color: #fff;
+	margin-top: 20px;
+	margin-right: 25px;
 }
 
-.yellowclock {
+.opacity img {
+	display: inline-block;
+	margin-top: 21px;
+	margin-left: 220px;
+}
+
+.ribbon {
+	display: block;
+	position: relative;
+	top: 325px;
+	height: 35px;
+	left: -7px;
+	width: 142px;
+	background: rgb(249, 207, 0);
+}
+	
+.ribbon:before, el:after {
+	content: '';
+	display: block;
 	position: absolute;
-	top: 22px;
-	right: 170px;
+	border-style: solid;
 }
-
-.graybox {
-	height: 120px;
-	width: 140px;
-	background: rgb(208, 205, 198);
-	position: absolute; top: 30px; right: 0px;
+	
+.ribbon:before {
+	display: block;
+	left: 0;
+	top: 35px;
+	border-width: 4px;
+	border-color: rgb(249, 207, 0) rgb(249, 207, 0) transparent transparent;
+}
+	
+.ribbon:after {
+	display: block;
 	right: 0;
-	display: inline-block;
+	top: 35px;
+	border-width: 12px;
+	border-color: rgb(249, 207, 0) transparent transparent #6d8b95;
 }
 
-.secondgraybox {
+.ribbon span {
+	font-size: 14px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 8px;
+	margin-left: 26px;
+	text-shadow: rgb(227, 177, 0) 0px 2px;
+}
+
+.undergray {
+	background: rgb(208, 205, 198);
+	display: inline-block;
+	height: 85px;
+	width: 620px;
+}
+
+.undergray span {
+	display: inline-block;
+	font-size: 19px;
+	color: rgb(67, 67, 67);
+	margin-top: 18px;
+	margin-left: 33px;
+	font-style: italic;
+}
+
+.joining{
+	display: inline-block;
+	height: 64px;
+	width: 620px;
+}
+.joining p {
+	display: inline-block;
+	width: 100%;
+	height: 67px;
+	font-size: 13px;
+	color: rgb(139, 139, 139);
+	margin-left: 33px;
+	margin-top: 8px;
+}
+
+.greyarrow {
+	display: inline-block;
+	margin-top: -106px;
+	margin-left: 8px;
+}
+
+.numberscontainer {
+	display: inline-block;
+	height: 580px;
+	width: 334px;
+	margin-left: 2px;
+
+}
+
+.mobbers {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	height: 420px;
+	width: 309px;
+	margin-top: 30px;
+	margin-left: 28px;
+}
+
+.mobberscontainer {
+	display: inline-block;
+	position: relative;
+	right:0;
+	width: 309px;
+	height: 155px;
+}
+
+.smallmob {
+	display: inline-block;
 	height: 120px;
 	width: 140px;
 	background: rgb(208, 205, 198);
-	position: relative; top: 30px; right: -652px;
+}
+
+.secondsmallmob {
 	display: inline-block;
+	position: absolute;
+	right: 0;
+	height: 120px;
+	width: 140px;
+	background: rgb(208, 205, 198);
+}
+
+.darkgrayfirst {
+	left: 0;
+height: 35px;
+position: absolute;
+margin-top: 120px;
+width: 140px;
+background: rgb(166, 159, 145);
+display: inline-block;
 }
 
 .darkgraybox {
-	height: 35px;
-	width: 140px;
-	background: rgb(166, 159, 145);
-	position: absolute; top: 150px; right: 0px;
 	right: 0;
-	display: inline-block;
-}
-
-.seconddarkgray {
+	position: absolute;
 	height: 35px;
+	margin-top: 120px;
 	width: 140px;
 	background: rgb(166, 159, 145);
-	position: absolute; top: 150px; right: 168px;
 	display: inline-block;
 }
 
-.graybox span {
-	font-size: 76px;
-	color: #fff;
-	text-transform: uppercase;
-	position: relative; top: 13px; right: -5px;
-	text-shadow: rgb(181, 181, 181) 0px 2px;
+.seconddarkgraybox {
+	right: 0;
+	position: absolute;
+	height: 35px;
+	margin-top: 120px;
+	width: 140px;
+	background: rgb(166, 159, 145);
+	display: inline-block;
+	margin-left: 20px
 }
 
-.secondgraybox span {
+.smallmob span {
 	font-size: 76px;
 	color: #fff;
+	text-shadow: rgb(181, 181, 181) 0px 3px;
+	display: inline-block;
+	margin: 12px 24px;
+}
+
+.secondsmallmob span {
+	font-size: 76px;
+	color: #fff;
+	text-shadow: rgb(181, 181, 181) 0px 3px;
+	display: inline-block;
+	margin: 12px 8px;
+}
+
+.darkgrayfirst span {
+	line-height: 35px;
+	margin-left: 35px;
+	font-size: 16px;
+	color: rgb(65, 65, 65);
 	text-transform: uppercase;
-	position: relative; top: 13px; right: -25px;
-	text-shadow: rgb(181, 181, 181) 0px 2px;
+	text-shadow: rgb(219, 215, 206) 0px 1px;
 }
 
 .darkgraybox span {
+	line-height: 35px;
+	margin-left: 9px;
 	font-size: 16px;
 	color: rgb(65, 65, 65);
 	text-transform: uppercase;
-	position: relative; top: 7px; right: -8px;
+	text-shadow: rgb(219, 215, 206) 0px 1px;
 }
 
-.seconddarkgray span {
-	font-size: 16px;
-	color: rgb(65, 65, 65);
-	text-transform: uppercase;
-	position: relative; top: 7px; right: -34px;
-}
-
-.yellowbox {
+.gradientbtn {
+	box-shadow: inset 0px 2px 2px rgb(255, 249, 113);
+	position: relative;
+	display: inline-block;
 	border-style: solid;
 	border-width: thin;
-	border-color: rgb(189, 128, 0);
+	border-color: rgb(211, 175,77);
 	border-radius: 6px;
 	height: 60px;
-	width: 305px;
-	position: absolute; top: 217px;
-	right: 0;
-	box-shadow: 0px 3px 1px rgb(226, 226, 226);
+	width: 307px;
+	margin-top: 30px;
 
 	background: #ffda00; /* Old browsers */
 background: -moz-linear-gradient(top,  #ffda00 0%, #e29900 100%); /* FF3.6+ */
@@ -208,13 +350,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffda00', end
 
 }
 
-.yellowbox span {
+.gradientbtn span {
 	font-weight: lighter;
 	font-size: 22px;
-	position: absolute; top: 13px; right: 94px;
 	color: #fff;
 	text-shadow: rgb(200, 149, 0) 0 2px;
+	display: inline-block;
+	margin: 15px 81px
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .awardbox {
 	z-index: 10;
@@ -227,13 +387,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffda00', end
 	border-radius: 6px;
 }
 
-.underbox {
-	height: 90px;
-	width: 622px;
-	position: absolute; top: 432px; left: 0px;
-	background: rgb(208, 205, 197);
 
-}
 
 .underbox span {
 	font-size: 20px;
@@ -241,15 +395,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffda00', end
 	position: absolute; top: 19px; left: 22px;
 }
 
-.join p {
-	color: rgb(125, 125, 125);
-	font-size: 13px;
-	position: absolute; top: 519px; left: 22px;
-}
 
-.join img {
-	position: absolute; top: -29px; left: -24px;
-}
 
 .middlewhite {
 	height: 622px;
