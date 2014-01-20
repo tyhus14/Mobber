@@ -583,14 +583,14 @@ h1 {
 .columntwo {
 	display: inline-block;
 	height: 38px;
-	width: 180px;
+	width: 188px;
 	position: relative;
 }
 
 .columnthree {
 	display: inline-block;
 	height: 38px;
-	width: 214px;
+	width: 201px;
 	position: relative;
 }
 
@@ -715,7 +715,7 @@ text-shadow: rgb(255, 237, 237) 0 2px;
 
 .footerrightcontainer {
 	display: inline-block;
-	width: 268px;
+	width: 267px;
 	height: 342px;
 	position: relative;
 }
