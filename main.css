@@ -48,7 +48,7 @@ body * {
 	text-transform: none;
 	margin-top: 3px;
 	color: #fff;
-	margin-right: -12px;
+	margin-right: -5px;
 }
 
 .springsteen {
@@ -512,7 +512,7 @@ h1 {
 .clocker img {
 	display: inline-block;
 	margin-top: 10px;
-	padding-left: 33px;
+	padding-left: 30px;
 }
 
 .lefttable {
@@ -717,7 +717,8 @@ text-shadow: rgb(255, 237, 237) 0 2px;
 	display: inline-block;
 	width: 267px;
 	height: 342px;
-	position: relative;
+	position: absolute;
+	right: 0;
 }
 
 .lefttitle {
@@ -809,9 +810,10 @@ text-shadow: rgb(255, 237, 237) 0 2px;
 }
 
 .email {
+	z-index: 1;
 	display: inline-block;
 	position: relative;
-	width: 175px;
+	width: 171px;
 	height: 45px;
 	border-top-left-radius: 6px;
 	border-bottom-left-radius: 6px;
@@ -819,11 +821,12 @@ text-shadow: rgb(255, 237, 237) 0 2px;
 }
 
 .checkbox {
+	z-index: 10;
 	display: inline-block;
 	position: absolute;
 	right: 0;
 	width: 45px;
-	height:47px;
+	height: 49px;
 	background: rgb(157, 157, 157);
 	border-top-right-radius: 6px;
 	border-bottom-right-radius: 6px;
